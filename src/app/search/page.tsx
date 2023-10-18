@@ -2,6 +2,11 @@ import SearchHeader from "./components/SearchHeader";
 import SearchSideBar from "./components/SearchSideBar";
 import SearchRestaurantCard from "./components/SearchRestaurantCard";
 
+export function generateMetadata({ params }: any) {
+  return {
+    title: "Search Page | Restaurant App",
+  };
+}
 function SearchPage() {
   return (
     <>

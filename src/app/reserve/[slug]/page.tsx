@@ -2,6 +2,11 @@ import React from "react";
 import ReserveHeader from "./components/ReserveHeader";
 import ReserveForm from "./components/ReserveForm";
 
+export function generateMetadata({ params }: any) {
+  return {
+    title: "Reserve Page | Restaurant App",
+  };
+}
 function ReservePage() {
   return (
     <>

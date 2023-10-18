@@ -6,7 +6,11 @@ import RestaurantDescription from "./components/RestaurantDescription";
 import RestaurantImages from "./components/RestaurantImages";
 import RestaurantReviews from "./components/RestaurantReviews";
 import RestaurantReservation from "./components/RestaurantReservation";
-
+export function generateMetadata({ params }: any) {
+  return {
+    title: "New Hotel",
+  };
+}
 function RestaurantPage() {
   return (
     <>

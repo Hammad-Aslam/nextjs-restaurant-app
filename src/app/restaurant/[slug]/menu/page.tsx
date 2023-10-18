@@ -1,7 +1,11 @@
 import RestaurantHeader from "../components/RestaurantHeader";
 import RestaurantNavBar from "../components/RestaurantNavBar";
 import RestaurantMenu from "../components/RestaurantMenu";
-
+export function generateMetadata({ params }: any) {
+  return {
+    title: "New Hotel - milestones-grill menu",
+  };
+}
 function MenuPage() {
   return (
     <>
